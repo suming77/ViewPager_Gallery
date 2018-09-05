@@ -34,7 +34,7 @@ public class MainActivity extends AppCompatActivity {
         mViewPager.setAdapter(new MyAdapter(this, mPics));
         mViewPager.setPageMargin(20);
         mViewPager.setOffscreenPageLimit(mPics.length);
-        mViewPager.setPageTransformer(true, new ZoomOutPageTransformer());//3D画廊模式
+        mViewPager.setPageTransformer(true, new ZoomOutPageTransformer());//设置画廊模式
 
         //左右都有图
         mViewPager.setCurrentItem(1);
